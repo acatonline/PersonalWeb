@@ -12,6 +12,9 @@
 /.next/
 /out/
 
+#nvm
+.nvmrc
+
 # production
 /build
 
