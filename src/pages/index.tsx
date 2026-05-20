@@ -191,7 +191,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
   return (
     <>
       <Malleable id="title" as="h1" isActive={isEdit} edits={edits}>
-        Nathan Jin
+        nathan's corner in the internet
       </Malleable>
       <div className="features">
         <div className="feature">
@@ -201,7 +201,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            ⚡
+            🛠️
           </Malleable>
           <Malleable
             id="feature-1-text"
@@ -209,7 +209,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            Blazing fast
+            Software Projects!
           </Malleable>
         </div>
         <div className="feature">
@@ -219,7 +219,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            📡
+            🔬
           </Malleable>
           <Malleable
             id="feature-2-text"
@@ -227,53 +227,12 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            Always available
-          </Malleable>
-        </div>
-        <div className="feature">
-          <Malleable
-            id="feature-3-emoji"
-            as="div"
-            isActive={isEdit}
-            edits={edits}
-          >
-            🏎
-          </Malleable>
-          <Malleable
-            id="feature-3-text"
-            as="h4"
-            isActive={isEdit}
-            edits={edits}
-          >
-            Lighthouse 100
+            {"(Machine Learning) "}Research!
           </Malleable>
         </div>
       </div>
-      <Malleable as="h2" id="title-2" isActive={isEdit} edits={edits}>
-        This demonstrates a static website generated using{" "}
-        <a target="_blank" rel="noopener" href="https://nextjs.org">
-          Next.js'
-        </a>{" "}
-        new{" "}
-        <a
-          target="_blank"
-          rel="noopener"
-          href="https://nextjs.org/docs/basic-features/data-fetching/get-static-props"
-        >
-          Static Site Generation (SSG)
-        </a>
-        . View the source on{" "}
-        <a
-          target="_blank"
-          rel="noopener"
-          href="https://github.com/vercel/preview-mode-demo"
-        >
-          GitHub
-        </a>
-        .
-      </Malleable>
       <div className="explanation">
-        <div className="p">
+        {/* <div className="p">
           <Malleable
             id="explanation-1-inspect"
             as="span"
@@ -290,57 +249,10 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             </a>
             , run:
           </Malleable>
-          <br />
-          <Malleable
-            id="explanation-1-pre-curl"
-            as="pre"
-            isActive={isEdit}
-            edits={edits}
-          >
-            curl -sI https://next-preview.vercel.app | grep x-vercel
-          </Malleable>
-          <Malleable
-            id="explanation-1-pre-response"
-            as="pre"
-            className="light"
-            isActive={isEdit}
-            edits={edits}
-          >
-            x-vercel-cache: HIT
-            <br />
-            x-vercel-id: cle1::zzq7g-1604525989923-a33b3946ccee
-          </Malleable>
-        </div>
+        </div> */}
         <Malleable id="explanation-2" isActive={isEdit} edits={edits}>
-          When people visit this site, the response always comes instantly from
-          their{" "}
-          <a
-            target="_blank"
-            rel="noopener"
-            href="https://vercel.com/docs/concepts/edge-network/overview"
-          >
-            nearest location
-          </a>
-          .
-        </Malleable>
-        <Malleable id="explanation-3" isActive={isEdit} edits={edits}>
-          Unlike traditional static solutions, however, you can generate
-          previews of edits that you can share with anyone you choose. To try it
-          out, click the edit icon on the bottom right and edit the content.
-          When you're done, click the share icon on the bottom right to generate
-          a shareable preview URL.
-        </Malleable>
-        <Malleable id="explanation-4" isActive={isEdit} edits={edits}>
-          SSG and Preview Mode make Next.js the most optimal framework to
-          integrate into your Headless CMS workflow. Learn more about the
-          preview mode on{" "}
-          <a
-            target="_blank"
-            rel="noopener"
-            href="https://nextjs.org/docs/advanced-features/preview-mode"
-          >
-            our documentation.
-          </a>
+          Unfortunately I do not have the skillz nor can i read to aquire the
+          skillz to finish this ... to be continued!
         </Malleable>
       </div>
     </>
